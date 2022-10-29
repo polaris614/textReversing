@@ -26,7 +26,6 @@ int main() {
 		char *pOut = &arrText[sizeof(arrText) - 2];  // neglect null terminator
 		char *append = pOut-=i;
 
-		cout << *append << flush;
 		reversed.push_back(*append);
 	}
 
